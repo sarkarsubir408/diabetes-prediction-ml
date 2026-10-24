@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Local dataset and generated model
+diabetes.csv
+diabetes_model.joblib
+*.joblib
+
+# Notebook and editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
